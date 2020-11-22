@@ -29,7 +29,6 @@ Exemplos de Entrada  | Exemplos de Saída
 
 ```javascript
 //SOLUÇÃO 1
-//SOLUÇÃO 1
 var num = parseInt(gets()); //Leitura da entrada 
 for (var i = 0; i <= num; i++) {
     if (i % 2 == 0) { //verifica se o resto da divisão 
