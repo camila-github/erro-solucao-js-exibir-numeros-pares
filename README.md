@@ -28,7 +28,7 @@ Exemplos de Entrada  | Exemplos de Saída
 #### Javascript
 
 ```javascript
-//SOLUÇÃO 1
+//SOLUCAO 1
 var num = parseInt(gets()); //Leitura da entrada 
 for (var i = 0; i <= num; i++) {
     if (i % 2 == 0) { //verifica se o resto da divisão 
@@ -39,7 +39,7 @@ for (var i = 0; i <= num; i++) {
 }
 
 
-//SOLUÇÃO 2 - Resumido
+//SOLUCAO 2 - Resumido
 /* Na estrutura de repetição (for) o i começa com 1, para não mostrar o zero no console*/
 num = parseInt(gets());
 for (i = 1; i <= num; i++)
