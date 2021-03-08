@@ -1,14 +1,17 @@
-//SOLUCAO 1
-var num = parseInt(gets());
+//SOLUCAO 1 - Resumido
+/* Na estrutura de repetição (for) o i começa com 1, para não mostrar o zero no console*/
+const numEntrada = parseInt(gets());
+for (let num = 1; num <= numEntrada; num++) if (num % 2 == 0) console.log(num);
+
+
+// SOLUCAO 2
+/*Leitura da entrada*/
+var num = parseInt(gets());  
 for (var i = 0; i <= num; i++) {
-    if (i % 2 == 0) {
-        if (i != 0) {
-            console.log(i);
+    /*verifica se o numero é diferente de 0, para nao ser mostrado no console*/ 
+    if (i != 0) {
+        if (i % 2 == 0) {         
+        console.log(i);
         }
     }
 }
-
-//SOLUCAO 2 - Resumido
-num = parseInt(gets());
-for (i = 1; i <= num; i++)
-    if (i % 2 == 0) console.log(i);
